@@ -1,5 +1,5 @@
 <div>
-  <h1>User Research on Stype preference</h1>
+  <h1>User Research on Style preference</h1>
   <h2><b>Situation</b></h2>
   <p>This is a user research project in a fashion e-commerce startup in 2021.<br>Back then, our important operational KPI was an average order value.<br>
  Since the launch of the service, this number had been around 2000 TWD. <br>
