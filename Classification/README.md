@@ -1,15 +1,14 @@
 <div>
   <h1>Classifying Game Characters Into Protagonists and Antagonists</h1>
-  <img src = "images/recommendation.png" width = 90%>
+  <img src = "images/top.png" width = 90%>
   <h2><b>Summary</b></h2>
-  <p>From the Bible to TV shows, great stories always consist of protagonists and antagonists to drive the stories exciting and dramatic. <br>
-  Hence, we always try our best to describe their protagonist-ness and antagonist-ness by character design when we visualize them. <br>
-  One of the most obvious examples of this is a classic TV game. <br>
-  In TV games, there are limits to time to explain who’s who and the purpose of the game, so designers need to design the character as everyone immediately recognizes the character’s role.<br> 
-  This intention crystalizes as design decisions of color, shape, and touches.<br> 
-  Therefore in this article, I aimed to build CNN (Convolutional Neural Network) to carry out a supervised image classification task to distinguish protagonist-look design and antagonist-look design.<br> 
-  Next, I compared the classification by CNN with the experiment result of 7 participants on the same task to see the main differences. Finally, I looked over the opportunity space for further studies. <br>
-  </p>
+  <p max_width = 80%>From the Bible to TV shows, great stories always consist of protagonists and antagonists to drive the stories exciting and dramatic. 
+  Hence, we always try our best to describe their protagonist-ness and antagonist-ness by character design when we visualize them. 
+  One of the most obvious examples of this is a classic TV game. 
+  In TV games, there are limits to time to explain who’s who and the purpose of the game, so designers need to design the character as everyone immediately recognizes the character’s role.
+  This intention crystalizes as design decisions of color, shape, and touches.
+  Therefore in this article, I aimed to build CNN (Convolutional Neural Network) to carry out a supervised image classification task to distinguish protagonist-look design and antagonist-look design.
+  Next, I compared the classification by CNN with the experiment result of 7 participants on the same task to see the main differences. Finally, I looked over the opportunity space for further studies.</p>
   <h2><b>Objective</b></h2>
   <p>My interest is (1) to train a deep neural network for image classifiction task, and (2)to compare its tendency with the test results from human participants.</p>
 
@@ -36,7 +35,7 @@
   <p>For example, Donkey Kong is a protagonist in the game series “Donkey Kong”, but he is originally designed as an antagonist in the “Mario Brothers” series.<br>
   Therefore I labeled him as an antagonist. Also, Mewtwo is a breedable character in the “Pokemon” series, but he starred in the movie “Mewtwo Strikes Back” (originally in 1998, remade in 2019).<br> 
   As such, Mewtwo is categorized as an antagonist too.<br>
-  The dataset of labeled pictures is stored here in <a href = "">Git Hub</a>. I also organized the data in this <a href = "">Google sheet</a> for convenience.</p>
+  The dataset of labeled pictures is stored here in <a href = "../images">Git Hub</a>. I also organized the data in this <a href = "https://docs.google.com/spreadsheets/d/1YKZr8YswlytX1j3Vd6T6eoxwOYb6w_bIlLCaKmFX2f4/edit#gid=1603174924">Google sheet</a> for convenience.</p>
 
 <h2><b>Implementation</b></h2>
   <p>I implemented this by CNN, which is one of the best solutions for image classification tasks.<br>
