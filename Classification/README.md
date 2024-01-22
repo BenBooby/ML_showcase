@@ -26,12 +26,12 @@
   I also collected the characters’ names and the main game series they starred in too.<br><br>
   Next, I labeled the dataset with either of protagonist or antagonist. <br>
   Considering that there is a lot of evidence and facts available on the internet about the character’s background, I adopted a rule-based classification we learned in class. A set of criteria is as follows.<br><p>
-  
+  <ul>
   <li>If the character played an antagonist at least once in the main game series, they are antagonists.</li>
   <li>If they played an antagonist in the spin-off series (derivative game series), they are antagonists.</li>
   <li>If they played an antagonist in the spin-off movies, novels, or other media mix contents, they are antagonists.</li>
   <li>If none of them are relevant to the character, they are protagonists.</li>
-
+</ul>
   <p>For example, Donkey Kong is a protagonist in the game series “Donkey Kong”, but he is originally designed as an antagonist in the “Mario Brothers” series.<br>
   Therefore I labeled him as an antagonist. Also, Mewtwo is a breedable character in the “Pokemon” series, but he starred in the movie “Mewtwo Strikes Back” (originally in 1998, remade in 2019).<br> 
   As such, Mewtwo is categorized as an antagonist too.<br>
@@ -89,6 +89,7 @@ Gen AI: It could be very interesting to generate a new character with protagonis
 
 <div>
 <h2>Work Cited</h2>
+<ul>
 <li>Nintendo, 2018, Super Smash Bros for the Nintendo Switch System, accessed 9 Dec. 2023 <https://www.smashbros.com/en_US/index.html></li>
 <li>The Pytorch Foundation, Welcome to Pytorch Tutorials, accessed 9 Dec. 2023, <https://pytorch.org/tutorials/></li>
 <li>Pranjail Soni, 2021, CNN Model With PyTorch For Image Classification, accessed 9 Dec. 2023, <https://medium.com/thecyphy/train-cnn-model-with-pytorch-21dafb918f48></li>
@@ -97,4 +98,5 @@ Gen AI: It could be very interesting to generate a new character with protagonis
 <li>Wikipedia, Category: Nintendo Protagonist, accessed 10 Dec. 2023, <https://en.wikipedia.org/wiki/Category:Nintendo_protagonists></li>
 <li>Fandom, Persona Wiki, accessed 10 Dec. 2023, <https://megamitensei.fandom.com/wiki/Persona_(Series)></li>
 <li>IMDb, Pokemon: The First Movie - Mewtwo Strikes Back(1998) - IMDb, accessed 10 Dec. 2023, <https://www.imdb.com/title/tt0190641/></li>
+</ul>
 </div>
