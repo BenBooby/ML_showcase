@@ -35,7 +35,7 @@
   <p>For example, Donkey Kong is a protagonist in the game series “Donkey Kong”, but he is originally designed as an antagonist in the “Mario Brothers” series.<br>
   Therefore I labeled him as an antagonist. Also, Mewtwo is a breedable character in the “Pokemon” series, but he starred in the movie “Mewtwo Strikes Back” (originally in 1998, remade in 2019).<br> 
   As such, Mewtwo is categorized as an antagonist too.<br>
-  The dataset of labeled pictures is stored here in <a href = "../images">Git Hub</a>. I also organized the data in this <a href = "https://docs.google.com/spreadsheets/d/1YKZr8YswlytX1j3Vd6T6eoxwOYb6w_bIlLCaKmFX2f4/edit#gid=1603174924">Google sheet</a> for convenience.</p>
+  The dataset of labeled pictures is stored here in <a href = "https://github.com/BenBooby/ML_showcase/tree/main/Classification/images">Git Hub</a>. I also organized the data in this <a href = "https://docs.google.com/spreadsheets/d/1YKZr8YswlytX1j3Vd6T6eoxwOYb6w_bIlLCaKmFX2f4/edit#gid=1603174924">Google sheet</a> for convenience.</p>
 
 <h2><b>Implementation</b></h2>
   <p>I implemented this by CNN, which is one of the best solutions for image classification tasks.<br>
