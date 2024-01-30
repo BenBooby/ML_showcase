@@ -4,7 +4,7 @@ I am an AI/ML practitioner who has 6.5-year experience of **tech entrepreneurshi
 
 ### ML Portfolio :robot:
 
-|      Projects    |     Description :paper:   | Dates :clock:  |
+|      Projects    |     Description :memo:   | Dates :calandar:  |
 |-----------------|---------------------------|---------------|
 | [**Game Character Classification**](https://github.com/BenBooby/Classification/) | Research Project on Image Classification of Protagonists and Antagonits of TV games, compareing the result of CNN and human participants.| 2023.11 - 2023.12 |
 | [**Customer Analysis**](https://github.com/BenBooby/Customer) | User Preference Research for Product Improvement on E-Commerce marketplace. | 2021.07 - 2021.08 |
