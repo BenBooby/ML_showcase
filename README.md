@@ -9,7 +9,7 @@ You can **find me on [LinkedIn](https://www.linkedin.com/in/katsuya-masaki/)**. 
 
 |      Projects 💡   |     Description :memo:   | Dates :calendar:  | Keywords  |
 |-----------------|---------------------------|---------------|----|
-| [**Impact Evaluation by Double-Difference in OLS**](https://github.com/BenBooby/tree/main/Evaluation/) | | 2024.01 - 2024.02 | #Statistical Learning #Causal Inference |
-| [**Game Character Classification with Convolutional NN**](https://github.com/BenBooby/tree/main/Classification/) | Research Project on Image Classification of Protagonists and Antagonits of TV games, compareing the result of CNN and human participants.| 2023.11 - 2023.12 | #Deep Learning #Computer Vision #HCI |
-| [**Customer Analysis by K-means**](https://github.com/BenBooby/tree/main/Customer) | User Preference Research for Product Improvement on E-Commerce marketplace. | 2021.07 - 2021.08 |#Machine Learning #Data Annotation #K-means   |
+| [**Impact Evaluation by Double-Difference in OLS**](https://github.com/BenBooby/ML_showcase/tree/main/Evaluation/) | The causal impact evaluation of Progresa, the subsidy for school enrollment in Mexico. I concluded it had a 3.13% uplift, using the Difference-In-Difference method with Ordinary Least Square algorithms to overcome selection bias.| 2024.01 - 2024.02 | #Statistical Learning #Causal Inference |
+| [**Game Character Classification with Convolutional NN**](https://github.com/BenBooby/ML_showcase/tree/main/Classification/) | Research Project on Image Classification of Protagonists and Antagonits of TV games, compareing the result of CNN and human participants.| 2023.11 - 2023.12 | #Deep Learning #Computer Vision #HCI |
+| [**Customer Analysis by K-means**](https://github.com/BenBooby/ML_showcase/tree/main/Customer) | User Preference Research for Product Improvement on E-Commerce marketplace. | 2021.07 - 2021.08 |#Machine Learning #Data Annotation #K-means   |
 
