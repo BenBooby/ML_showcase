@@ -12,7 +12,7 @@ For this project, I used data from the [Progresa program](http://en.wikipedia.or
 
 Throughout this notebook, I will follow the fundumental framework of impact evaluation.<br>
 Let $D$ be our estimater, $Y_i$ is the ith data point, and $T_i$ is the treatment assignment of $Y_i$. Then we have, <br>
-$D = \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 0]$ 
+$D = \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 0]$ <br>
 $\mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1] + \mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0]$
 
 So I will go through; <br>
