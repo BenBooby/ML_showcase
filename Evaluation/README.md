@@ -3,13 +3,25 @@
 ## Introduction to the project
 
 The goal of this project is to implement some of the econometric techniques to measure the impact of Progresa on secondary school enrollment rates. <br>
-Throughout this notebook, I will go through; <br>
+For this project, I used data from the [Progresa program](http://en.wikipedia.org/wiki/Oportunidades), a government social assistance program in Mexico.<br>
+ This program, as well as the details of its impact, are described in the paper "[School subsidies for the poor: evaluating the Mexican Progresa poverty program](http://www.sciencedirect.com/science/article/pii/S0304387803001858)", by Paul Shultz. 
+
+
+## Strategy for impact evaluation
+
+
+Throughout this notebook, I will follow the fundumental framework of impact evaluation.<br>
+Let $D$ be our estimater, $Y_i$ is the ith data point, and $T_i$ is the treatment assignment of $Y_i$. Then we have, <br>
+$D = \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 0] $
+ $ \leftarrowrightarrow \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1] + \mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0] $
+
+So I will go through; <br>
+
 1. **Descriptive analysis** : Check the dataset's characteristics and baseline information.
 2. **Simple difference** : Estimate the causal impact by simple difference, by tabular analysis and regression.
 3. **Difference-in-difference** : Re-estimate the causal effect by Difference-in-Difference, the method which is more suitable for this dataset.
 
-For this project, I used data from the [Progresa program](http://en.wikipedia.org/wiki/Oportunidades), a government social assistance program in Mexico.<br>
- This program, as well as the details of its impact, are described in the paper "[School subsidies for the poor: evaluating the Mexican Progresa poverty program](http://www.sciencedirect.com/science/article/pii/S0304387803001858)", by Paul Shultz. 
+
 
 
 
