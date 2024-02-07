@@ -15,8 +15,8 @@ Let $D$ be our impact estimater, $Y_i$ is the ith data point, and $T_i$ is the t
 $D = \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 0]$ <br>
 Then by adding the counterfactual $\mathrm E[Y_i(0)| T_i = 1]$ without breking the equation, we have<br>
 $D= \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1] + \mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0]$ <br>
-$ = ATE +(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$,  with Average Treatment Effect(ATE) = $\mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1]$ <br>
-$ = ATE + Selection Bias$  with Selection Bias $=(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$<br>
+$= ATE +(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$,  with Average Treatment Effect(ATE) = $\mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1]$ <br>
+$= ATE + Selection Bias$ with Selection Bias $=(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$<br>
 
 Keeping this equation in mind, I will go through; <br>
 
