@@ -11,15 +11,18 @@ For this project, I used data from the [Progresa program](http://en.wikipedia.or
 
 
 Throughout this notebook, I will follow the fundumental framework of impact evaluation.<br>
-Let $D$ be our estimater, $Y_i$ is the ith data point, and $T_i$ is the treatment assignment of $Y_i$. Then we have, <br>
+Let $D$ be our impact estimater, $Y_i$ is the ith data point, and $T_i$ is the treatment assignment of $Y_i$. Then we have, <br><br>
 $D = \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 0]$ <br>
-$\leftrightarrow \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1] + \mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0]$
+Then by adding the counterfactual $\mathrm E[Y_i(0)| T_i = 1]$ without breking the equation, we have<br>
+$D= \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1] + \mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0]$ <br>
+$ = \mathrm ATE +(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$  with Average Treatment Effect(ATE) = $\mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1]$<br>
+$ = \mathrm ATE + Selection Bias$  with Selection Bias $=(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$<br>
 
-So I will go through; <br>
+Keeping this equation in mind, I will go through; <br>
 
-1. **Descriptive analysis** : Check the dataset's characteristics and baseline information.
-2. **Simple difference** : Estimate the causal impact by simple difference, by tabular analysis and regression.
-3. **Difference-in-difference** : Re-estimate the causal effect by Difference-in-Difference, the method which is more suitable for this dataset.
+1. **Descriptive analysis** : Explore the dataset's characteristics and **see if there's a selection bias between the two groups**.
+2. **Simple difference** : Estimate the causal impact $D$ by simple difference, by tabular analysis and regression.
+3. **Difference-in-difference** : Re-estimate the causal effect $D$ by Difference-in-Difference, the method which is more suitable for this dataset.
 
 
 
