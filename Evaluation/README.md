@@ -10,14 +10,15 @@ For this project, I used data from the [Progresa program](http://en.wikipedia.or
 ## Strategy for impact evaluation
 
 
-Throughout this notebook, I will follow the fundumental framework of impact evaluation.<br>
-Let $D$ be our impact estimater, $Y_i$ is the ith data point, and $T_i$ is the treatment assignment of $Y_i$. Then we have, <br><br>
+Before we start, I would like to review the fundumental framework of impact evaluation by comparison of treatment group and control group.<br>
+Let $D$ be our impact estimate, $Y_i$ is the ith data point, and $T_i$ is the treatment assignment of $Y_i$. Then we have, <br><br>
 $D = \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 0]$ <br>
 Then by adding the counterfactual $\mathrm E[Y_i(0)| T_i = 1]$ without breking the equation, we have<br>
 $D= \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1] + \mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0]$ <br>
 $\quad= ATE +(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$,  with Average Treatment Effect(ATE) = $\mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1]$ <br>
-$\quad=ATE$ $+$ SelectionBias, with Selection Bias $=(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$ <br>
+$\quad=ATE$ $+$ $B$,  with Selection Bias(B) $=(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$ <br><br>
 
+What we want to estimate is ATE, so our estimate could be biased with this model, if there's a selection bias.<br>
 Keeping this equation in mind, I will go through; <br>
 
 1. **Descriptive analysis** : Explore the dataset's characteristics and **see if there's a selection bias between the two groups**.
