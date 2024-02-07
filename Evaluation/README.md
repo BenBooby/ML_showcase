@@ -16,7 +16,7 @@ $D = \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 0]$ <br>
 Then by adding the counterfactual $\mathrm E[Y_i(0)| T_i = 1]$ without breking the equation, we have<br>
 $D= \mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1] + \mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0]$ <br>
 $\quad= ATE +(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$,  with Average Treatment Effect(ATE) = $\mathrm E[Y_i(1)| T_i = 1] - \mathrm E[Y_i(0)| T_i = 1]$ <br>
-$\quad=ATE$ $+$ $Selection_Bias$, with Selection Bias $=(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$ <br>
+$\quad=ATE$ $+$ SelectionBias, with Selection Bias $=(\mathrm E[Y_i(0)| T_i = 1] - \mathrm E[Y_i(0) = 0 | T_i = 0])$ <br>
 
 Keeping this equation in mind, I will go through; <br>
 
