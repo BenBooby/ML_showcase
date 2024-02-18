@@ -723,8 +723,8 @@ Thus far, we have computed the effects of Progresa by estimating the difference 
 An alternative approach would be to compute the treatment effect using a **Difference-In-Differences(DID)** framework.<br>
 The DID method is an approach to estimate causal effects under the selection bias between treatment and control group.<br><br>
 
-The underlying assumption of DID is, "Treatment group and control group would have **the same trend** in the absence of treatment."<br>
-So it doesn't require the assumption Simple difference requires, which is "Treatment group and control group would have the same **outcome** in the absence of treatment."<br>
+The underlying assumption of DID is, "there exist parallel trends over time in enrollment rates between treated and control villages."<br>
+So it doesn't require the assumption Simple difference requires, which is "The counterfactual assumption is that, in the absence of treatment, the average school enrollment in the treatment group and the average school enrollment in the control groups would have been the same."<br>
 Although we need pre-period data to execute this method, this advantage on assumption is critical about impact evaluation in reality,<br> 
 especially because we already know there could be a selection bias between treatment and control group of this dataset.
 
