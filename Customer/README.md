@@ -3,8 +3,7 @@
   <img src = "images/recommendation.png" width = 90%>
   <h2><b>Background</b></h2>
   <p>This is a user research project in a fashion e-commerce startup at Taiwan in 2021.<br>
-    Back then, our important operational KPI was Average Order Value(AOV).<br>
-    Since the launch of the service, this number had been around 2000 TWD. <br>
+    Back then, our important operational KPI was yealy spending per user.<br>
   </p>
   <h2><b>Objective</b></h2>
   <p>My Mission was to find a product improvement opportunity to enhance this KPI.</p>
@@ -40,7 +39,7 @@
 <h2><b>Result</b></h2>
 <p>
   It turned out the more various styles a user prefers, the more they spend with more frequency.
-  <br><b>The group with the most diverse preference(RAINBOW) spend 56% more than the group with the least diverse preference(MINIMALIST).</b><br></p><br>
+  <br><b>The group with the most diverse preference(RAINBOW) spend 2.2 times more than the group with the least diverse preference(MINIMALIST) annually.</b><br></p><br>
       <img src = "images/result.png" width = 50%>
   <p><br>Thus our hypothesis was validated. <br>
   After that, we worked on this opportunity and improved our recommendation on another project, it increased the KPI by <b>15%</b>.</p>
