@@ -894,7 +894,7 @@ plt.legend()
 
 
     
-![png](Progresa_files/did_line.png)
+![png](Images/did_line.png)
     
 
 
